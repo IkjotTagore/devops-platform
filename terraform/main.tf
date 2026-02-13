@@ -4,7 +4,7 @@ terraform{
 
 provider "local"{}
 
-local {
+locals {
     full_cluster_name = "${var.cluster_name}-${var.environment}"
 }
 
