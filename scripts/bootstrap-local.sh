@@ -68,7 +68,7 @@ metadata:
   namespace: metallb-system
 spec:
   addresses:
-    - 192.168.1.200-192.168.1.250
+    - 172.23.199.200-172.23.199.250
 ---
 apiVersion: metallb.io/v1beta1
 kind: L2Advertisement
